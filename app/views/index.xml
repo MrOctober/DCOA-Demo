@@ -1,0 +1,63 @@
+<Alloy>
+    <NavigationWindow id="navgroup" platform="ios,mobileweb">
+        <Window id="index" title="DC Office on Aging" backgroundColor="white" layout="vertical">
+        	<ScrollableView id="scrollableView" showPagingControl="true" height="170" backgroundColor="#ffffff">
+            <View id="view1" backgroundImage="/slideshow/dcoa-slide1.jpg">
+               <!--<Label class="slideLabel">The Age-Friendly DC Initiative</Label>-->
+            </View>
+            <View id="view2" backgroundImage="/slideshow/dcoa-slide2.jpg">
+             </View>
+            <View id="view3" backgroundImage="/slideshow/dcoa-slide3.jpg">
+             </View>
+             <View id="view4" backgroundImage="/slideshow/dcoa-slide4.jpg">
+             </View>
+        </ScrollableView>
+        <ScrollView layout="vertical" scrollType="vertical" showVerticalScrollIndicator="true">
+            <Button id="serviceTypes" onClick="goToPage" layout="horizontal">
+            	<Label id="servicesIcon"></Label><Label id="servicesLabel">Services & Resources</Label><Label id="arrow" left="25"></Label>
+            </Button>
+            <Button id="events" onClick="goToPage" layout="horizontal">
+            	<Label id="eventsIcon"></Label><Label id="eventsLabel">Upcoming Events</Label><Label id="arrow"  left="59"></Label>
+            </Button>
+            <Button id="about" onClick="goToPage" layout="horizontal">
+            	<Label id="aboutIcon"></Label><Label id="aboutLabel">About Us</Label><Label id="arrow"  left="129"></Label>	
+            </Button>
+            <Button id="contact" onClick="goToPage" layout="horizontal">
+            	<Label id="contactIcon"></Label><Label id="contactLabel">Contact Us</Label><Label id="arrow"  left="113"></Label>
+            </Button>
+        </ScrollView>    
+        </Window>
+    </NavigationWindow>
+    <Window id="index" title="DC Office on Aging" platform="android" backgroundColor="#ffffff">
+    	<View layout="vertical">
+	    	<ScrollableView id="scrollableView" showPagingControl="true" height="170" backgroundColor="#ffffff">
+	            <View id="view1" backgroundImage="/slideshow/dcoa-slide1.jpg">
+	            </View>
+	            <View id="view2" backgroundImage="/slideshow/dcoa-slide2.jpg">
+	             </View>
+	            <View id="view3" backgroundImage="/slideshow/dcoa-slide3.jpg">
+	             </View>
+	             <View id="view3" backgroundImage="/slideshow/dcoa-slide3.jpg">
+	             </View>
+	        </ScrollableView>
+	        <ScrollView layout="vertical" scrollType="vertical" showVerticalScrollIndicator="true">
+	            <View id="serviceTypes" onClick="goToPage" layout="horizontal" height="60">
+	            	<Label id="servicesIcon" bubbleParent="true" touchEnabled="false"></Label><Label id="servicesLabel" touchEnabled="false">Services & Resources</Label><Label id="arrow" left="15" touchEnabled="false"></Label>
+	            </View>
+	            <View id="events" onClick="goToPage" layout="horizontal" height="60">
+	            	<Label id="eventsIcon" bubbleParent="true" touchEnabled="false"></Label><Label id="eventsLabel" touchEnabled="false">Upcoming Events</Label><Label id="arrow" left="49" touchEnabled="false"></Label>
+	            </View>
+	            <View id="about" onClick="goToPage" layout="horizontal" height="60">
+	            	<Label id="aboutIcon" bubbleParent="true" touchEnabled="false"></Label><Label id="aboutLabel" touchEnabled="false">About Us</Label><Label id="arrow" left="119" touchEnabled="false"></Label>	   
+	            </View>
+	            <View id="contact" onClick="goToPage" layout="horizontal" height="60">
+	            	<Label id="contactIcon" bubbleParent="true" touchEnabled="false"></Label><Label id="contactLabel" touchEnabled="false">Contact Us</Label><Label id="arrow" left="103" touchEnabled="false"></Label>
+	            </View>
+	         </ScrollView>   
+    	</View>
+    </Window>
+</Alloy>
+
+
+
+

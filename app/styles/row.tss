@@ -1,0 +1,47 @@
+
+"#row" : {
+	height:Ti.UI.SIZE,
+	hasChild:true,
+	width: Ti.UI.FILL,
+	left:0
+},
+
+"#rowView" : {
+	height:Ti.UI.SIZE,
+}
+
+"#title" : {
+	top:-10,
+	left:10,
+	right:10,
+	color:"#2B4888",
+  	font:{
+		fontWeight:'bold',
+		fontSize:19,
+	}
+},
+
+"#location" : {
+	top:-10,
+	left:10,
+	right:10,
+	color:"#444444",
+  	font: {
+  		fontSize:15,
+  		
+  	}
+},
+
+"#date" : {
+	top:5,
+	left:10,
+	right:10,
+	color:"#444444",
+	font:{
+		fontWeight:'bold',
+		fontSize:16,
+	}
+  	
+}
+
+

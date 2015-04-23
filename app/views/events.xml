@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="events" title="DCOA-Events" backgroundColor="white" platform="ios">
+			<TableView id="table" filterAttribute="filter">
+				<SearchBar id="search" showCancel="true" height="50" top="0" platform="ios"/>
+			</TableView>
+	</Window>
+	<Window id="events" title="DCOA-Events" backgroundColor="white"  platform="android">
+			<TableView id="table">
+			</TableView>
+	</Window>
+	
+</Alloy>

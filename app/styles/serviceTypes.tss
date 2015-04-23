@@ -1,0 +1,47 @@
+".container": {
+    backgroundColor:"white",
+    exitOnClose: true
+},
+
+
+"Switch" : {
+
+},
+
+"TableViewSection":{
+	font: {
+        fontSize: '24dp',
+        fontWeight: 'bold'
+   },
+},
+
+"TableViewRow" : {
+	color:"#333",
+	backgroundColor:"#ffffff",
+	selectedColor:'#efefef',
+	height:50,
+	hasCheck:false
+	
+},
+
+
+"Button" : {
+	color:"#2B4888",
+	height: '50dp',
+	backgroundColor:'#f5f5f5',
+	font: {
+        fontSize: '18dp',
+        fontWeight: 'bold'
+   },
+    textAlign: 'center',
+},
+
+".checkbox" : {
+},
+
+
+"#serviceTypes" : {
+	
+}
+
+

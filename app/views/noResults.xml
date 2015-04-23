@@ -1,0 +1,7 @@
+<Alloy>
+	<Window id="noResults">
+		<View class="container">
+			<Label text="There are no results, please try your search again."></Label>
+		</View>
+	</Window>
+</Alloy>

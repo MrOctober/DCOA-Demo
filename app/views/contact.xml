@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="contact" title="DCOA-Contact Us" backgroundColor="white">
+		<WebView id="webview" scalesPageToFit="false" url="/html/contact.html" touchEnabled="true" willHandleTouches="true" />
+	</Window>
+</Alloy>

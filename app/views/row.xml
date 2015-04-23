@@ -1,0 +1,14 @@
+<Alloy>
+	<TableViewRow id="row" layout="vertical" platform="ios" hasChild="true">
+			<Label id="title"/>
+			<Label id="date"/>
+			<Label id="location"/>
+			<Label text = ' '/>
+	</TableViewRow>			
+	<TableViewRow id="row" layout="vertical" platform="android" hasChild="true">
+			<Label id="title"/>
+			<Label id="date" top="-15"/>
+			<Label id="location" top="-10"/>
+			<Label text = ' ' height="5" />
+	</TableViewRow>
+</Alloy>

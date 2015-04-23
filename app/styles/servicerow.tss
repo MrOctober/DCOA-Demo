@@ -1,0 +1,49 @@
+
+".container" : {
+  
+},
+
+"Label" : {
+	color:"#333",
+},
+
+"TableViewRow" : {
+	color:"#333",
+	backgroundColor:"#ffffff",
+	selectedColor:'#efefef',
+	left:0
+},
+
+
+"#name" : {
+	left:10,
+	right:10,
+	top:10,
+	font: {
+		fontFamily:"Arial",
+		fontSize:15,
+		fontWeight:"bold"
+	},
+	color:"#2B4888",
+},
+
+"#address" : {
+	font: {
+		fontFamily:"Arial",
+		fontSize:14,
+		fontWeight:"normal"
+	},
+	left:10,
+	right:10,
+},
+
+"#services" : {
+	font: {
+		fontFamily:"Arial",
+		fontSize:12,
+		fontWeight:"bold"
+	},
+	left:10,
+	right:10,
+	top:2	
+},

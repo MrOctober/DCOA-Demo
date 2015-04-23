@@ -1,0 +1,182 @@
+".container": {
+	backgroundColor:"white"
+},
+
+"ScrollableView": {
+	pagingControlColor:'#dddddd',
+	borderColor:'#2B4888',
+	borderWidth:1
+},
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	top:10,
+	
+}, 
+
+"Button": {
+	width: '95%',
+	height: 60,
+	backgroundColor:'#ebecee',
+	color:'#999999',
+	borderColor:'#cccccc',
+	borderWidth:2,
+	top:20
+},
+
+"#serviceTypes": {
+	width: '95%',
+	height: 60,
+	backgroundColor:'#ebecee',
+	color:'#999999',
+	borderColor:'#cccccc',
+	borderWidth:2,
+	top:20,
+	touchEnabled:"true"
+	
+},
+
+"#events": {
+	width: '95%',
+	height: 60,
+	backgroundColor:'#ebecee',
+	color:'#999999',
+	borderColor:'#cccccc',
+	borderWidth:2,
+	top:20,
+	touchEnabled:"true"
+	
+},
+
+"#about": {
+	width: '95%',
+	height: 60,
+	backgroundColor:'#ebecee',
+	color:'#999999',
+	borderColor:'#cccccc',
+	borderWidth:2,
+	top:20,
+	touchEnabled:"true"
+},
+
+"#contact": {
+	width: '95%',
+	height: 60,
+	backgroundColor:'#ebecee',
+	color:'#999999',
+	borderColor:'#cccccc',
+	borderWidth:2,
+	top:20,
+	touchEnabled:"true"
+},
+
+"#servicesIcon": {
+	top:10,
+	left:5,
+	width:40,
+	height:40,
+	backgroundImage:"/appbar.location.round.png"
+	
+	
+},	
+
+"#servicesLabel": {
+	color:'#2B4888',
+	left:10,
+	top:18,
+	font: {
+		fontSize: 19
+	}
+	
+	
+},
+
+"#eventsIcon": {
+	top:10,
+	left:5,
+	width:40,
+	height:40,
+	backgroundImage:"/appbar.calendar.month.png"
+	
+	
+},	
+
+"#eventsLabel": {
+	color:'#2B4888',
+	left:10,
+	top:18,
+	font: {
+		fontSize: 19
+	}
+	
+	
+},
+
+"#aboutIcon": {
+	top:10,
+	left:5,
+	width:40,
+	height:40,
+	backgroundImage:"/appbar.people.multiple.png"
+	
+	
+},	
+
+"#aboutLabel": {
+	color:'#2B4888',
+	left:10,
+	top:18,
+	font: {
+		fontSize: 19
+	}
+	
+	
+},
+
+"#contactIcon": {
+	top:10,
+	left:5,
+	width:40,
+	height:40,
+	backgroundImage:"/appbar.phone.png"
+	
+	
+},	
+
+"#contactLabel": {
+	color:'#2B4888',
+	left:10,
+	top:18,
+	font: {
+		fontSize: 19
+	}
+	
+	
+},
+
+"#arrow": {
+	width:40,
+	height:40,
+	backgroundImage:"/arrow.png",
+	left:50
+	
+},	
+
+
+".slideLabel": {
+	top:90,
+	left:0,
+	opacity:0.9,
+	backgroundColor:"#eeeeee",
+	color:"#2B4888",
+	width:"100%",
+	height:40,
+	textAlign:'center',
+	font: {
+		fontSize:18,
+		fontWeight:'bold'
+	}
+	
+}

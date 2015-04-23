@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="services" title="Services & Resources" backgroundColor="white">
+		<View layout="vertical">
+			  <Module id="mapview" module="ti.map" method="createView" height="150" top="0" regionFit="true" userLocation="true">
+		            <!-- Starting with Alloy 1.4.0, use the Annotation tag to define an annotation -->
+		            <!-- Prior to Alloy 1.4.0, create annotations in the controller -->
+		            <!--<Annotation id='appcHQ' myid='1' />-->
+		      </Module>
+			<TableView id="serviceList" filterAttribute="filter">
+				 <SearchBar id="search" showCancel="true" height="50" top="0" platform="ios"  />
+			</TableView>
+		</View>
+	</Window>
+	
+	
+	
+	
+</Alloy>

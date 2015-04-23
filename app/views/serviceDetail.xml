@@ -1,0 +1,24 @@
+<Alloy>
+	<Window id="serviceDetail" backgroundColor="white">
+			<Module id="mapview" module="ti.map" method="createView" height="200" top="0" regionFit="true" userLocation="true">
+		            <!-- Starting with Alloy 1.4.0, use the Annotation tag to define an annotation -->
+		            <!-- Prior to Alloy 1.4.0, create annotations in the controller -->
+		            <!--<Annotation id='appcHQ' myid='1' />-->
+		    </Module>
+		<ScrollView layout="vertical" scrollType="vertical" showVerticalScrollIndicator="true" top="200">
+	        	<View class="container" layout="vertical" backgroundColor="#fff">
+		        	<Label id="name" />
+		        	<Label id="address"/>
+		        	<Label id="ward"/>
+					<View id="phoneView" layout="horizontal" height="Ti.UI.SIZE" left="10"><Label text="Phone: "/><Label id="officeNumber"/></View>
+					<View id="faxView" layout="horizontal" height="Ti.UI.SIZE"left="10"><Label text="Fax: "/><Label id="fax"/></View>
+					<View id="websiteView" layout="horizontal" height="Ti.UI.SIZE" left="10"><Label text="Website: "/><Label id="webAddress"/></View>
+					<View id="servicesView" layout="horizontal" height="Ti.UI.SIZE" left="10"><Label text="Services and Resources:"/></View>
+					<Label id="services"/>
+				</View>
+		</ScrollView>
+	</Window>
+	<Window id="website">
+    	<WebView id="webView" />
+   	</Window>
+</Alloy>

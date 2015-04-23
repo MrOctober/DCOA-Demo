@@ -1,0 +1,6 @@
+<Alloy>
+	<View id="logoArea" layout="horizontal">
+            <ImageView id="logo" class="left top" />
+            <Label id="title">DCOA Mobile</Label>
+    </View>
+</Alloy>

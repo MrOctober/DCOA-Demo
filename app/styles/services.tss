@@ -1,0 +1,20 @@
+
+".container" : {
+  
+},
+
+"Label" : {
+	color:"#333",
+},
+
+"#mapview" : {
+   mapType: Alloy.Globals.Map.NORMAL_TYPE
+}
+
+"TableViewRow" : {
+	color:"#333",
+	backgroundColor:"#ffffff",
+	selectedColor:'#efefef',
+	height:50
+},
+

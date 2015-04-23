@@ -1,0 +1,48 @@
+<Alloy>
+	<Window id="serviceoptions" title="Services & Resources">
+		<RightNavButton platform="ios">
+			<Button id="submitVals">Apply</Button>
+        </RightNavButton>
+				<TableView id="serviceTypes" layout="vertical" backgroundColor="#fff" color="#333333">
+					<TableViewSection headerTitle="Please tap services to select">
+					
+					
+					<TableViewRow title="Adult Day Care Services" class="checkbox"></TableViewRow>
+					<TableViewRow title="Advocacy and Ombudsman Service" class="checkbox"></TableViewRow>
+					<TableViewRow title="Aging and Disability Resource Center" class="checkbox"></TableViewRow>
+					<TableViewRow title="Caregiver Services and Associations " class="checkbox"></TableViewRow>
+					<TableViewRow title="Congregate Meal Sites" class="checkbox"></TableViewRow>
+					<TableViewRow title="D.C. Office on Aging Nursing Facility " class="checkbox"></TableViewRow>
+					<TableViewRow title="Day Care Program for Older Adults" class="checkbox"></TableViewRow>
+					<TableViewRow title="Distribution Sites for Homebound Meals" class="checkbox"></TableViewRow>
+					<TableViewRow title="Emergency Food " class="checkbox"></TableViewRow>
+					<TableViewRow title="Emergency and Group Housing" class="checkbox"></TableViewRow>
+					<TableViewRow title="Employment & Job Training " class="checkbox"></TableViewRow>
+					<TableViewRow title="Health Care/ In-Home Support" class="checkbox"></TableViewRow>
+					<TableViewRow title="Hearing Impairment " class="checkbox"></TableViewRow>
+					<TableViewRow title="Long-Term Care Providers" class="checkbox"></TableViewRow>
+					<TableViewRow title="Nutrition Services " class="checkbox"></TableViewRow>
+					<TableViewRow title="Office on Aging Based Programs" class="checkbox"></TableViewRow>
+					<TableViewRow title="Outreach and Publications" class="checkbox"></TableViewRow>  
+					<TableViewRow title="Recreation/Socialization " class="checkbox"></TableViewRow>
+					<TableViewRow title="Senior Wellness Centers" class="checkbox"></TableViewRow>
+					<TableViewRow title="Transportation Services " class="checkbox"></TableViewRow>
+					<TableViewRow title="Veterans" class="checkbox"></TableViewRow>
+					<TableViewRow title="Visual Impairment " class="checkbox" ></TableViewRow>
+					<TableViewRow hasCheck="false"></TableViewRow>
+				    </TableViewSection>
+				</TableView>    			
+				<Toolbar bottom="0" platform="ios">
+					<Items>
+		                <Button id="checkAll" height="25" width="100%">Check All</Button>
+		                <FlexSpace/>
+		                <Button id="uncheckAll" height="25" width="100%">Uncheck All</Button>
+		            </Items>
+				</Toolbar>
+				<View bottom="0" height="50"  backgroundColor="#f5f5f5" platform="android" layout="horizontal">
+	                <Button id="checkAll" height="40" left="10" top="5">  Check All  </Button>
+	                <Button id="uncheckAll" height="40" left="10" top="5">  Uncheck All  </Button>
+	                <Button id="submitVals" height="40" left="10" top="5">  Apply > </Button>
+				</View> 
+	</Window>
+</Alloy>	

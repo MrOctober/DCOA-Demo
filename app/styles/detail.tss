@@ -1,0 +1,131 @@
+"Window" : {
+	
+},
+
+".container" : {
+	top:0,
+    width: Ti.UI.FILL,
+    textAlign:"left",
+    color:"#444444"
+    
+},
+
+"View" : {
+	height:Ti.UI.SIZE,
+},
+
+"Label" : {
+	 color:"#444444",
+	 height:Ti.UI.SIZE,
+	 font: {
+		fontSize:18,
+		fontWeight:"bold",
+	},
+	
+},
+
+"Button" : {
+	color:"#2B4888",
+	height: '50dp',
+	backgroundColor:'#f5f5f5',
+	font: {
+        fontSize: '18dp',
+        fontWeight: 'bold'
+   },
+    textAlign: 'center',
+},
+
+"#data" : {
+	 color:"#444444",
+	 height:Ti.UI.SIZE,
+	 font: {
+		fontSize:18,
+		fontWeight:"normal",
+	},
+	
+},
+
+"#title" : {
+	top:0,
+	left:10,
+	right:10,
+	height:Ti.UI.SIZE,
+	font: {
+		fontSize:21,
+		fontWeight:"bold"
+	},
+	color:"#2B4888",
+},
+
+"#building" : {
+	left:10,
+	right:10,
+	font: {
+		fontWeight:"normal"
+	},
+},
+
+"#dateView" : {
+	width:Ti.UI.Fill,
+	height:Ti.UI.SIZE,
+	backgroundColor:'#efefef'
+},
+
+"#date" : {
+	top:5,
+	left:20,
+	right:20,
+	font: {
+		fontSize:21,
+		fontWeight:"bold",
+	},
+	textAlign:'center',
+	width:Ti.UI.Fill,
+	
+},
+
+"#location" : {
+	left:10,
+	right:10,
+	font: {
+		fontWeight:"normal"
+	},
+},
+
+"#details" : {
+	font: {
+		fontWeight:"normal"
+	},
+},
+
+"#cost" : {
+	font: {
+		fontWeight:"normal"
+	},
+},
+"#contact" : {
+	font: {
+		fontWeight:"normal"
+	},
+},
+
+"#email" : {
+	font: {
+		fontWeight:"normal"
+	},
+},
+
+"#phone" : {
+	font: {
+		fontWeight:"normal"
+	},
+},
+
+
+"#website" : {
+	font: {
+		fontWeight:"normal"
+	},
+},
+
+

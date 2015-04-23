@@ -1,0 +1,15 @@
+
+".container" : {
+  
+},
+
+"#table": {
+    backgroundColor:"#efefef",
+    allowsSelection:true,
+    touchEnabled: true,
+    scrollable:true,
+    showVerticalScrollIndicator:true,
+    separatorStyle:1,
+    separatorColor:"#cccccc",
+    width:Ti.UI.FILL
+},

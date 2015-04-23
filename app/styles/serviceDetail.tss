@@ -1,0 +1,89 @@
+
+".container" : {
+  
+},
+
+"Label" : {
+	 color:"#444444",
+	font: {
+		fontSize:14,
+		fontWeight:"normal"
+	},
+},
+
+
+"#name" : {
+	top:10,
+	left:10,
+	right:10,
+	font: {
+		fontSize:21,
+		fontWeight:"bold"
+	},
+	color:"#2B4888",
+},
+
+"#address" : {
+	left:10,
+	right:10,
+	font: {
+		fontSize:18,
+		fontWeight:"bold"
+	},
+},
+
+"#ward" : {
+	left:10,
+	right:10,
+	font: {
+		fontSize:16,
+	},
+},
+
+"#servicesView" : {
+	top:15
+},
+
+
+"#services" : {
+	left:10,
+	right:10,
+	font: {
+		fontSize:16,
+		fontWeight:"bold"
+	},
+},
+
+"#webAddress" : {
+	color:"#20399d",
+	left:10,
+	font: {
+		fontSize:16,
+	},
+},
+
+"#fax" : {
+	left:10,
+	right:10,
+	font: {
+		fontSize:16,
+	},
+},
+
+"#email" : {
+	color:"#20399d",
+	left:10,
+	right:10,
+	font: {
+		fontSize:16,
+	},
+},
+
+"#officeNumber" : {
+	color:"#20399d",
+	left:10,
+	right:10,
+	font: {
+		fontSize:16,
+	},
+},

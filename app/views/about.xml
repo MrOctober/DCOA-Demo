@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="about" title="DCOA-About Us" backgroundColor="white">
+		 <WebView id="webview" scalesPageToFit="false" url="/html/about.html" touchEnabled="true" />
+	</Window>
+</Alloy>

@@ -1,0 +1,33 @@
+<Alloy>
+	<Window id="wardWin" title="Select Ward" backgroundColor="#fff">
+		<RightNavButton platform="ios">
+			<Button id="submitWards">Apply </Button>
+        </RightNavButton>
+         <TableView id="wardSelect" layout="vertical" backgroundColor="#fff">
+			<TableViewSection headerTitle="Please tap wards to select ">
+				<TableViewRow title="Ward 1" hasCheck="false" />
+				<TableViewRow title="Ward 2" class="checkbox" hasCheck="false"></TableViewRow>
+				<TableViewRow title="Ward 3" class="checkbox" hasCheck="false"></TableViewRow>
+				<TableViewRow title="Ward 4" class="checkbox" hasCheck="false"></TableViewRow>
+				<TableViewRow title="Ward 5" class="checkbox" hasCheck="false"></TableViewRow>
+				<TableViewRow title="Ward 6" class="checkbox" hasCheck="false"></TableViewRow>
+				<TableViewRow title="Ward 7" class="checkbox" hasCheck="false"></TableViewRow>
+				<TableViewRow title="Ward 8" class="checkbox" hasCheck="false"></TableViewRow>
+				<TableViewRow hasCheck="false"></TableViewRow>
+				
+		    </TableViewSection>
+		</TableView> 
+		<Toolbar bottom="0" platform="ios">
+			<Items>
+                <Button id="checkAll" height="25" width="100%">Check All</Button>
+                <FlexSpace/>
+                <Button id="uncheckAll" height="25" width="100%">Uncheck All</Button>
+            </Items>
+		</Toolbar>
+		<View bottom="0" height="50"  backgroundColor="#f5f5f5" platform="android" layout="horizontal">
+                <Button id="checkAll" height="40" left="10" top="5"> Check All </Button>
+                <Button id="uncheckAll" height="40" left="10" top="5"> Uncheck All </Button>
+                <Button id="submitWards" height="40" left="10" top="5"> Apply > </Button>
+		</View>
+	</Window>
+</Alloy>
